@@ -11,7 +11,7 @@ App for organizing and keeping track of your discs and bags. View and share your
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/rickypoolay/MyDiscBag.git
 ```
 
 Go to the project directory
