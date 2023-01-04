@@ -1,0 +1,130 @@
+{
+  "bags": [
+    {
+      "id": "main-bag-3",
+      "bagName": "Main",
+      "bagItems": [
+        {
+          "discName": "DX Destroyer",
+          "id": 1,
+          "image": ""
+        },
+        {
+          "discName": "Mako 3",
+          "id": 2,
+          "image": ""
+        },
+        {
+          "discName": "Aviar",
+          "id": 3,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "main-bag-3",
+      "bagName": "Main",
+      "bagItems": [
+        {
+          "discName": "DX Destroyer",
+          "id": 1,
+          "image": ""
+        },
+        {
+          "discName": "Mako 3",
+          "id": 2,
+          "image": ""
+        },
+        {
+          "discName": "Aviar",
+          "id": 3,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "main-bag-3",
+      "bagName": "Main",
+      "bagItems": [
+        {
+          "discName": "DX Destroyer",
+          "id": 1,
+          "image": ""
+        },
+        {
+          "discName": "Mako 3",
+          "id": 2,
+          "image": ""
+        },
+        {
+          "discName": "Aviar",
+          "id": 3,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "main-bag-3",
+      "bagName": "Main",
+      "bagItems": [
+        {
+          "discName": "DX Destroyer",
+          "id": 1,
+          "image": ""
+        },
+        {
+          "discName": "Mako 3",
+          "id": 2,
+          "image": ""
+        },
+        {
+          "discName": "Aviar",
+          "id": 3,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "main-bag-3",
+      "bagName": "Main",
+      "bagItems": [
+        {
+          "discName": "DX Destroyer",
+          "id": 1,
+          "image": ""
+        },
+        {
+          "discName": "Mako 3",
+          "id": 2,
+          "image": ""
+        },
+        {
+          "discName": "Aviar",
+          "id": 3,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "main-bag-3",
+      "bagName": "Main",
+      "bagItems": [
+        {
+          "discName": "DX Destroyer",
+          "id": 1,
+          "image": ""
+        },
+        {
+          "discName": "Mako 3",
+          "id": 2,
+          "image": ""
+        },
+        {
+          "discName": "Aviar",
+          "id": 3,
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
