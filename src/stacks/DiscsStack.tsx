@@ -13,7 +13,7 @@ export default function DiscsStack() {
         cardStyle: { backgroundColor: colors.appBackgroundColor },
       }}
     >
-      <DiscsStack.Screen name="All Discs" component={AllDiscs} />
+      <DiscsStack.Screen name="My Discs" component={AllDiscs} />
     </DiscsStack.Navigator>
   );
 }
