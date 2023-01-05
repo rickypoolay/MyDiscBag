@@ -8,32 +8,32 @@ import {
 import React, { useEffect, useState } from "react";
 import { typographyStyles } from "../styles/Typography";
 import { colors } from "../styles/Colors";
+import { TabIconSelector } from "../utils/helpers";
 
 export default function TabBarButton({
+  navigation,
   setSelected,
   routeName,
   selected,
 }: {
+  navigation: any;
   routeName: string;
   setSelected?: any;
   selected?: string;
 }) {
   return (
     <TouchableOpacity
-      style={{
-        alignItems: "center",
-        position: "relative",
-        width: 100,
-        borderColor: "white",
-        borderWidth: 1,
-      }}
-      activeOpacity={selected == routeName ? 1 : 0.2}
+      style={styles.contentWrapper}
+      activeOpacity={1}
       onPress={() => setSelected(routeName)}
     >
       {selected == routeName ? (
-        <Text style={typographyStyles.NavigationTab}>selected</Text>
+        <View style={styles.activeWrapper}>{TabIconSelector(routeName)}</View>
       ) : (
-        <Text style={typographyStyles.NavigationTab}>{routeName}</Text>
+        <>
+          <View style={{ marginBottom: 4 }}>{TabIconSelector(routeName)}</View>
+          <Text style={typographyStyles.NavigationTab}>{routeName}</Text>
+        </>
       )}
     </TouchableOpacity>
   );
@@ -43,6 +43,9 @@ const styles = StyleSheet.create({
   contentWrapper: {
     alignItems: "center",
     position: "relative",
+    width: 100,
+    height: 30,
+    justifyContent: "center",
   },
   activeWrapper: {
     position: "absolute",
@@ -53,10 +56,6 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     width: 60,
     height: 60,
-    top: -6,
+    top: -25,
   },
-  inActiveWrapper: {
-    alignItems: "center",
-  },
-  icon: { borderColor: "white", borderWidth: 1 },
 });

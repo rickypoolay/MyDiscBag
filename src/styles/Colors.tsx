@@ -1,6 +1,7 @@
 export const colors = {
   appBackgroundColor: "#1B1B1B",
   mainTextColor: "#fff",
-  darkGreen: "#242424",
+  lightBlack: "#242424",
+  lighterBlack: "#2D2D2D",
   buttons: "#2BB571",
 };

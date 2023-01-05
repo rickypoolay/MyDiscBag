@@ -15,7 +15,6 @@ export default function AllBags() {
           </View>
         )}
         keyExtractor={(item) => item.id}
-        contentContainerStyle={{ flex: 1 }}
       />
     </View>
   );

@@ -28,7 +28,7 @@ export default function BagCard({ bagData }: { bagData: any }) {
 
 const styles = StyleSheet.create({
   contentWrapper: {
-    backgroundColor: colors.darkGreen,
+    backgroundColor: colors.lightBlack,
     borderRadius: 10,
     paddingHorizontal: 14,
     paddingVertical: 14,

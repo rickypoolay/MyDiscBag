@@ -1,11 +1,15 @@
-import { StyleSheet } from "react-native";
+import { Dimensions, StyleSheet } from "react-native";
 import { colors } from "./Colors";
+
+const windowHeight = Dimensions.get("window").height;
+const windowWidth = Dimensions.get("window").width;
 
 export const globalStyles = StyleSheet.create({
   pageContainer: {
-    flex: 1,
+    width: "100%",
+    height: windowHeight - 220,
     backgroundColor: colors.appBackgroundColor,
-    paddingTop: 36,
+    paddingTop: 20,
     paddingHorizontal: 20,
   },
 });

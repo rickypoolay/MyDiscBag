@@ -19,15 +19,8 @@ export default function App() {
         tabBar={(props) => <Tabbar {...props} />}
         screenOptions={{
           headerShown: false,
-          // tabBarShowLabel: false,
-          // tabBarStyle: {
-          //   height: 80,
-          //   backgroundColor: colors.darkGreen,
-          //   borderTopRightRadius: 10,
-          //   borderTopLeftRadius: 10,
-          // },
         }}
-        initialRouteName="Bags"
+        initialRouteName={ROUTES.RootStack.InitialRoute}
       >
         <RootStack.Screen
           name={ROUTES.RootStack.AllDiscs}
