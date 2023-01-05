@@ -155,9 +155,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     flex: 1,
-    margin: 1,
-    marginBottom: 16,
-    height: Dimensions.get("window").width / 3,
+    margin: 3,
+    marginBottom: 12,
+    height: Dimensions.get("window").width / 2.5,
+    borderRadius: 12,
   },
   text: {
     color: "#FFFFFF",
