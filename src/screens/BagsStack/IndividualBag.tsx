@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 import {
   Button,
   Dimensions,
@@ -6,10 +6,10 @@ import {
   StyleSheet,
   Text,
   View,
-} from "react-native";
-import DiscCard from "../../components/DiscCard";
-import Header from "../../components/Header";
-import { colors, typographyStyles, globalStyles } from "../../styles/Index";
+} from 'react-native';
+import DiscCard from '../../components/DiscCard';
+import Header from '../../components/Header';
+import { colors, typographyStyles, globalStyles } from '../../styles/Index';
 
 export default function IndividualBag(navStack: any) {
   interface discData {
@@ -26,66 +26,66 @@ export default function IndividualBag(navStack: any) {
   const discData = [
     {
       id: 1,
-      brand: "Innova",
-      discName: "Destroyer",
-      speed: "12",
-      glide: "5",
-      turn: "-1",
-      fade: "6",
+      brand: 'Innova',
+      discName: 'Destroyer',
+      speed: '12',
+      glide: '5',
+      turn: '-1',
+      fade: '6',
     },
     {
       id: 2,
-      brand: "Innova",
-      discName: "Destroyer",
-      speed: "12",
-      glide: "5",
-      turn: "-1",
-      fade: "6",
+      brand: 'Innova',
+      discName: 'Destroyer',
+      speed: '12',
+      glide: '5',
+      turn: '-1',
+      fade: '6',
     },
     {
       id: 3,
-      brand: "Innova",
-      discName: "Destroyer",
-      speed: "12",
-      glide: "5",
-      turn: "-1",
-      fade: "6",
+      brand: 'Innova',
+      discName: 'Destroyer',
+      speed: '12',
+      glide: '5',
+      turn: '-1',
+      fade: '6',
     },
     {
       id: 4,
-      brand: "Innova",
-      discName: "Destroyer",
-      speed: "12",
-      glide: "5",
-      turn: "-1",
-      fade: "6",
+      brand: 'Innova',
+      discName: 'Destroyer',
+      speed: '12',
+      glide: '5',
+      turn: '-1',
+      fade: '6',
     },
     {
       id: 5,
-      brand: "Innova",
-      discName: "Destroyer",
-      speed: "12",
-      glide: "5",
-      turn: "-1",
-      fade: "6",
+      brand: 'Innova',
+      discName: 'Destroyer',
+      speed: '12',
+      glide: '5',
+      turn: '-1',
+      fade: '6',
     },
     {
       id: 6,
-      brand: "Innova",
-      discName: "Destroyer",
-      speed: "12",
-      glide: "5",
-      turn: "-1",
-      fade: "6",
+      brand: 'Innova',
+      discName: 'Destroyer',
+      speed: '12',
+      glide: '5',
+      turn: '-1',
+      fade: '6',
     },
     {
       id: 7,
-      brand: "Innova",
-      discName: "Destroyer",
-      speed: "12",
-      glide: "5",
-      turn: "-1",
-      fade: "6",
+      brand: 'Innova',
+      discName: 'Destroyer',
+      speed: '12',
+      glide: '5',
+      turn: '-1',
+      fade: '6',
     },
   ];
 
@@ -118,7 +118,7 @@ export default function IndividualBag(navStack: any) {
 
   return (
     <View style={globalStyles.pageContainer}>
-      <Text style={{ ...typographyStyles.Header1, textAlign: "center" }}>
+      <Text style={{ ...typographyStyles.Header1, textAlign: 'center' }}>
         {/* If json contains drivers then render and etc.. for other categories */}
         Discs
       </Text>
@@ -151,25 +151,31 @@ const styles = StyleSheet.create({
     marginVertical: 20,
   },
   individualDiscCard: {
-    backgroundColor: "#232323",
-    alignItems: "center",
-    justifyContent: "center",
+    backgroundColor: '#232323',
+    alignItems: 'center',
+    justifyContent: 'center',
     flex: 1,
     margin: 3,
     marginBottom: 12,
-    height: Dimensions.get("window").width / 2.5,
+    height: Dimensions.get('window').width / 2,
     borderRadius: 12,
+    padding: 12,
   },
   text: {
-    color: "#FFFFFF",
+    color: '#FFFFFF',
     paddingHorizontal: 4,
   },
   discStats: {
     marginTop: 6,
-    flexDirection: "row",
+    flexDirection: 'row',
   },
   individualDiscCardInvisible: {
     // when user has more discs than multiples of 6 the card will not show
-    backgroundColor: "transparent",
+    backgroundColor: 'transparent',
+  },
+  heartIcon: {
+    position: 'absolute',
+    top: 12,
+    right: 12,
   },
 });
